@@ -29,18 +29,60 @@ body{
 	text-decoration: none;
 }
 
+.LetraLechuguita{
+	position: absolute;
+	width: 30%;
+	top: 15%;
+	left: 35%;
+}
+
+.Payaso1{
+	position: absolute;
+	width: 15%;
+	left: 42%;
+	top: 30%;
+}
+
+.LetraShow{
+	position: absolute;
+	width: 25%;
+	left: 37%;
+	top: 65%;
+	z-index: 90;
+}
+
+.Nube1{
+	position: absolute;
+	width: 50%;
+	top: 60%;
+}
+
+.Nube2{
+	position: absolute;
+	width: 40%;
+	top: 60%;
+	left: 35%;	
+}
+
+.Nube3{
+	position: absolute;
+	width: 40%;
+	top: 60%;
+	left: 60%;
+}
+
 /*Main*/
 
 .main{
-	background-color: blue;
+	background-color: green;
 }
 
 .plan{
 
 	display: inline-block;
 	height: 35%;
-	width: 23%;
-	margin: 2%;
+	width: 22%;
+	margin: 2.3%;
 	padding: 3%;
 	background-color: white;
 	opacity: 0.95;
