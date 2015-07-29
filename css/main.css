@@ -11,7 +11,7 @@ body{
 .header{
 	height: 100%;
 	width: 100%;
-	background-color: blue;
+	background: linear-gradient(#2E64FE, #58D3F7);
 }
 
 .menu{
@@ -53,7 +53,7 @@ body{
 
 .Nube1{
 	position: absolute;
-	width: 50%;
+	width: 40%;
 	top: 60%;
 }
 
@@ -74,7 +74,7 @@ body{
 /*Main*/
 
 .main{
-	background-color: green;
+	background: linear-gradient(#58D3F7,#CEF6F5);
 }
 
 .plan{
@@ -130,6 +130,12 @@ body{
 	background-color: purple;
 }
 
+.Nariz{
+	position: absolute;
+	left: 90%;
+	width: 20%;
+
+}
 /*Contacto*/
 
 .contacto{
