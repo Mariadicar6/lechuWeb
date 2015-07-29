@@ -1,0 +1,109 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Header*/
+.header{
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}
+
+.menu{
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	padding: 2% 0% 2% 70%;
+	background-color: red;
+	opacity: 0.7;
+	z-index: 100;
+}
+
+.menu a{
+	margin-left: 2%;
+	text-decoration: none;
+}
+
+/*Main*/
+
+.main{
+	background-color: blue;
+}
+
+.plan{
+
+	display: inline-block;
+	height: 35%;
+	width: 23%;
+	margin: 2%;
+	padding: 3%;
+	background-color: white;
+	opacity: 0.95;
+}
+
+.plan h2{
+	margin-left: 75%;
+}
+
+.plan:nth-child(1){
+	color: pink;
+}
+
+.plan:nth-child(2){
+	color: green;
+}
+
+.plan:nth-child(3){
+	color: purple;
+}
+
+.plan a{
+	text-decoration: none;
+}
+
+.botonPlan{
+	position: relative;
+	left: 65%;
+	top: 0%;
+	width: 20%;
+	height: 10%;
+	padding: 3% 5% 3% 5%;	
+	color: white;
+}
+
+.fondoRosado{
+	background-color: pink;
+}
+
+.fondoVerde{
+	background-color: green;
+}
+
+.fondoMorado{
+	background-color: purple;
+}
+
+/*Contacto*/
+
+.contacto{
+	margin: auto;
+	width: 29%;
+	padding: 2%;
+}
+
+.contacto h2{
+	margin-left: 68%;
+}
+
+.contacto input, textarea{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+
+
