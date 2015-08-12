@@ -3,58 +3,73 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lechuguita</title>
-	<link rel="stylesheet" href="css/main.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="header">
-		<nav class="menu">
-			<a href="#">Inicio</a>
-			<a href="#">Planes</a>
-			<a href="#">Contacto</a>	
-		</nav>
-		<img class="LetraLechuguita" src="img/LetraLechuguita.png" alt="">
-		<img class="Payaso1" src="img/Payaso1.png" alt="">
-		<img class="LetraShow" src="img/LetraShow.png" alt="">
-		<img src="img/Nube1.png" alt="" class="Nube1">
-		<img src="img/Nube2.png" alt="" class="Nube2">
-		<img src="img/Nube3.png" alt="" class="Nube3">
-	</div>
-	<div class="main">	
-		<img class="Nariz" src="img/Nariz.png" alt="">
-		<div class="plan">
-			<h2>S/400</h2>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<a href="">
-				<div class="botonPlan fondoRosado">Ver plan</div>
-			</a>
+	<header>
+		<div class="container-fluid menu">
+			<div class="row">
+				<div class="col-sm-12">
+					<nav class="">
+						<a href="#">Inicio</a>
+						<a href="#">Planes</a>
+						<a href="#">Contacto</a>	
+					</nav>
+				</div>
+			</div>
+		</div>		
+		<img class="letra-lechuguita" src="img/LetraLechuguita.png" alt="">
+		<img class="payaso" src="img/Payaso1.png" alt="">
+		<img class="letra-show" src="img/LetraShow.png" alt="">
+		<img src="img/Nube1.png" alt="" class="nube1">
+		<img src="img/Nube2.png" alt="" class="nube2">
+		<img src="img/Nube3.png" alt="" class="nube3">
+	</header>
+	<section class="planes">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 plan">
+					<img src="img/estrella.png" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, esse quam aperiam blanditiis consequuntur nulla quidem, cupiditate autem dolorem ipsa eligendi debitis eveniet, nam quis at, veniam officia natus perspiciatis!</p>
+					<button class="btn btn-default" type="submit">Button</button>
+				</div>
+				<div class="col-sm-3 plan">
+					<img src="img/estrella.png" alt="">
+					<img src="img/estrella.png" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, esse quam aperiam blanditiis consequuntur nulla quidem, cupiditate autem dolorem ipsa eligendi debitis eveniet, nam quis at, veniam officia natus perspiciatis!</p>
+					<button class="btn btn-default" type="submit">Button</button>
+				</div>
+				<div class="col-sm-3 plan">
+					<img src="img/estrella.png" alt="">
+					<img src="img/estrella.png" alt="">
+					<img src="img/estrella.png" alt="">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, esse quam aperiam blanditiis consequuntur nulla quidem, cupiditate autem dolorem ipsa eligendi debitis eveniet, nam quis at, veniam officia natus perspiciatis!</p>
+					<button class="btn btn-default" type="submit">Button</button>
+				</div>
+			</div>
 		</div>
-		<div class="plan">
-			<h2>S/800</h2>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<a href="">
-				<div class="botonPlan fondoVerde">Ver plan</div>
-			</a>
-		</div>
-		<div class="plan">
-			<h2>S/1200</h2>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<p><img src="" alt="">texto</p>
-			<a href="">
-				<div class="botonPlan fondoMorado">Ver plan</div>
-			</a>
-		</div>
-		
-		
-		<div class="contacto">
-			<h2>Contáctame</h2>
-			<input type="text" name="email">
-			<textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-		</div>
-	</div>
+	</section>
+	<section class="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-offset-3">
+					<h2>Contáctame</h2>
+					<input type="text" class="form-control" placeholder="Correo">
+					<textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<footer>
+		<p>A&M</p>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
